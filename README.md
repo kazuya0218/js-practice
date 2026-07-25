@@ -1,2 +1,4 @@
-# js-practice
-js学習
+# js practice
+
+JavaScriptで解いた問題を保存しています。
+
