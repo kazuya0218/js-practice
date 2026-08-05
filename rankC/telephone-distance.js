@@ -44,20 +44,3 @@ reader.on('close', () => {
 
   console.log(totalDistance);
 });
-
-/*
-改善ポイント
-
-Before
--------
-totalDistance += dialDistance[digit] + dialDistance[digit];
-
-After
-------
-totalDistance += dialDistance[digit] * 2;
-
-理由
------
-・同じ値を2回足すより「2倍」と書いた方が意図が伝わりやすい
-・コードが少し短くなる
-*/
